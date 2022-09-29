@@ -10,6 +10,6 @@ int main(){
         i++;
         printf("%d\n", n*i);
     }
-
+//teste
     return 0;
 }

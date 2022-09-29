@@ -2,6 +2,8 @@
 
 int main(){
 
+    //maior e menor nota para médias de alunos
+
     float a, b, c = 0;
     scanf("%f %f %f", &a, &b, &c);
     float menor;
