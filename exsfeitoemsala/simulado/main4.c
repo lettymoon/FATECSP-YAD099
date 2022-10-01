@@ -3,21 +3,20 @@
 int main(){
 
     int n = 0;
-    int i, divs;
+    int i = 0;
     scanf("%d", &n);
-    divs =0;
-    for(i = 1; i <= n; i = i + 1)   {
-        if(n % i == 0 && n % n == 0){
-            divs = divs + 1;
+
+    i = 2;
+
+    while(i < n){
+        if(n % i == 0){
+            printf("não é primo");
+            break;
         }
+        i++;
     }
-    if(divs == 2)   {
-        printf("primo");
-    }   else    {
-        printf("não é primo");
-    }
-
-
+    if (i >= n )
+        printf("é primo");
 
     return 0;
 }
